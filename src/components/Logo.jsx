@@ -1,9 +1,15 @@
-import { BaseLink } from "components/base/BaseLink";
+import { twMerge } from 'tailwind-merge'
 
-export function Logo(props) {
-  return (
-    <BaseLink url="/" {...props}>
-      ACTS 2025
-    </BaseLink>
-  );
+import { BaseLink } from 'components/base/BaseLink'
+
+export function Logo({ className, ...props }) {
+    return (
+        <BaseLink
+            url="/"
+            {...props}
+            className={twMerge('text-3xl font-semibold', className)}
+        >
+            ACTS 2025
+        </BaseLink>
+    )
 }

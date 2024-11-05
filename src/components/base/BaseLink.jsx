@@ -1,9 +1,9 @@
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom'
 
-export function BaseLink({ className, children, url, ...otherProps }) {
-  return (
-    <Link to={url} {...otherProps}>
-      {children}
-    </Link>
-  );
+export function BaseLink({ children, url, ...props }) {
+    return (
+        <Link to={url} {...props}>
+            {children}
+        </Link>
+    )
 }
