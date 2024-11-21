@@ -1,14 +1,5 @@
-import { Outlet } from "react-router-dom";
-
-import { Header } from "components/Header";
-import { Footer } from "components/Footer";
+import { Outlet } from 'react-router-dom'
 
 export default function MainApp({ children = <Outlet /> }) {
-  return (
-    <div className="min-h-screen flex flex-col">
-      <Header />
-      <main className="flex-auto">{children}</main>
-      <Footer />
-    </div>
-  );
+    return <div className="flex min-h-screen flex-col">{children}</div>
 }

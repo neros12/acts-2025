@@ -1,15 +1,12 @@
+import { Link } from 'react-router-dom'
 import { twMerge } from 'tailwind-merge'
 
 import { BaseLink } from 'components/base/BaseLink'
 
 export function Logo({ className, ...props }) {
     return (
-        <BaseLink
-            url="/"
-            {...props}
-            className={twMerge('text-3xl font-semibold', className)}
-        >
-            ACTS 2025
-        </BaseLink>
+        <Link to="/" {...props} className={twMerge('h-12', className)}>
+            <img src="/images/acts-logo.svg" alt="" className="h-full w-full" />
+        </Link>
     )
 }
