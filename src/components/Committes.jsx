@@ -1,14 +1,11 @@
 import { twMerge } from 'tailwind-merge'
 
-import { Container } from 'components/Container'
+import { Section } from 'components/base/Section'
+import { Container } from 'components/Base/Container'
 
 export function Committes({ className }) {
     return (
-        <section
-            id="committes"
-            aria-label="Committes"
-            className={twMerge('py-20 sm:py-32', className)}
-        >
+        <Section id="committes" className={className}>
             <Container className="space-y-20">
                 <div>
                     <h2
@@ -53,6 +50,6 @@ export function Committes({ className }) {
                     </p>
                 </div>
             </Container>
-        </section>
+        </Section>
     )
 }

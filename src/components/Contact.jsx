@@ -1,7 +1,8 @@
 import { twMerge } from 'tailwind-merge'
 
 import { Button } from 'components/Button'
-import { Container } from 'components/Container'
+import { Section } from 'components/base/Section'
+import { Container } from 'components/base/Container'
 // import backgroundImage from "images/background-newsletter.jpg";
 
 function ArrowRightIcon(props) {
@@ -21,11 +22,7 @@ function ArrowRightIcon(props) {
 
 export function Contact({ className }) {
     return (
-        <section
-            id="newsletter"
-            aria-label="Newsletter"
-            className={twMerge(className)}
-        >
+        <Section id="newsletter" className={className}>
             <Container>
                 <div className="md:rounded-5xl relative -mx-4 overflow-hidden bg-indigo-50 px-4 py-20 sm:-mx-6 sm:px-6 md:mx-0 md:px-16 xl:px-24 xl:py-36">
                     {/* <Image
@@ -72,6 +69,6 @@ export function Contact({ className }) {
                     </div>
                 </div>
             </Container>
-        </section>
+        </Section>
     )
 }

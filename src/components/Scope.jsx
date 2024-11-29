@@ -1,15 +1,16 @@
 import { twMerge } from 'tailwind-merge'
 
-import { Container } from 'components/container'
+import { Section } from 'components/base/Section'
+import { Container } from 'components/Base/Container'
 
 export function Scope({ className }) {
     return (
-        <section className={twMerge('py-20 sm:py-32', className)}>
-            <Container>
+        <Section>
+            <Container className={className}>
                 <h2 className="font-display text-4xl font-medium tracking-tighter text-blue-600 sm:text-5xl">
                     Conference Scope
                 </h2>
             </Container>
-        </section>
+        </Section>
     )
 }

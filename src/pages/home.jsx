@@ -17,7 +17,6 @@ export default function Home() {
 
     const clickHeader = (e) => {
         const targetId = e.target.id
-
         if (targetId === 'nav-home') {
             window.scrollTo({ top: 0, behavior: 'smooth' })
         } else if (targetId === 'nav-speakers') {

@@ -2,7 +2,8 @@ import { useEffect, useId, useState, forwardRef } from 'react'
 import { Tab, TabGroup, TabList, TabPanel, TabPanels } from '@headlessui/react'
 import { twMerge } from 'tailwind-merge'
 
-import { Container } from 'components/Container'
+import { Container } from 'components/Base/Container'
+import { Section } from 'components/base/Section'
 import { DiamondIcon } from 'components/DiamondIcon'
 import andrewGreeneImage from 'images/avatars/andrew-greene.jpg'
 import cathleneBurrageImage from 'images/avatars/cathlene-burrage.jpg'
@@ -175,11 +176,7 @@ export function Speakers({ className }) {
     }, [])
 
     return (
-        <section
-            id="speakers"
-            aria-labelledby="speakers-title"
-            className={twMerge('py-20 sm:py-32', className)}
-        >
+        <Section className={className}>
             <Container>
                 <div className="mx-auto max-w-2xl lg:mx-0">
                     <h2
@@ -291,6 +288,6 @@ export function Speakers({ className }) {
                     </TabPanels>
                 </TabGroup>
             </Container>
-        </section>
+        </Section>
     )
 }
