@@ -1,53 +1,33 @@
+import { useEffect, useState } from 'react'
 import { twMerge } from 'tailwind-merge'
 
 import { Section } from 'components/base/Section'
 import { Container } from 'components/Base/Container'
 
 export function Committes({ className }) {
+    const [committeState, setCommitteState] = useState('Chairs')
+
     return (
-        <Section id="committes" className={className}>
-            <Container className="space-y-20">
-                <div>
-                    <h2
-                        id="conference-chair"
-                        className="font-display text-4xl font-medium tracking-tighter text-blue-600 sm:text-5xl"
-                    >
-                        Conference Chair
+        <Section className={className}>
+            <Container>
+                <div className="mx-auto max-w-2xl lg:mx-0">
+                    <h2 className="font-display text-4xl font-medium tracking-tighter text-blue-600 sm:text-5xl">
+                        Committes
                     </h2>
                     <p className="font-display mt-4 text-2xl tracking-tight text-blue-900">
-                        Asst. Prof. Lek Wantha
-                    </p>
-                    <p className="font-display mt-4 text-2xl tracking-tight text-blue-900">
-                        Asst. Prof. Lek Wantha
+                        Learn from the experts on the cutting-edge of deception
+                        at the most sinister companies.
                     </p>
                 </div>
-                <div>
-                    <h2
-                        id="scientific-committee"
-                        className="font-display text-4xl font-medium tracking-tighter text-blue-600 sm:text-5xl"
-                    >
-                        Scientific Committee
-                    </h2>
-                    <p className="font-display mt-4 text-2xl tracking-tight text-blue-900">
-                        Asst. Prof. Lek Wantha
-                    </p>
-                    <p className="font-display mt-4 text-2xl tracking-tight text-blue-900">
-                        Asst. Prof. Lek Wantha
-                    </p>
-                </div>
-                <div>
-                    <h2
-                        id="organizing-committee"
-                        className="font-display text-4xl font-medium tracking-tighter text-blue-600 sm:text-5xl"
-                    >
-                        Organizing Committee
-                    </h2>
-                    <p className="font-display mt-4 text-2xl tracking-tight text-blue-900">
-                        Asst. Prof. Lek Wantha
-                    </p>
-                    <p className="font-display mt-4 text-2xl tracking-tight text-blue-900">
-                        Asst. Prof. Lek Wantha
-                    </p>
+                <div className="mt-6 flex gap-8 border-4">
+                    <div className="w-64 space-y-4 border text-2xl font-light text-slate-400">
+                        <div>Symposium Chairs</div>
+                        <div>Symposium Secretary</div>
+                        <div>Advisory Board</div>
+                        <div>Scientific Committe</div>
+                        <div>National Organizing Committe</div>
+                    </div>
+                    <div className="flex-auto border"></div>
                 </div>
             </Container>
         </Section>

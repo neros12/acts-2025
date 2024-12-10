@@ -3,6 +3,9 @@ module.exports = {
     content: ['./src/**/*.{html,js,jsx}'],
     theme: {
         extend: {
+            screens: {
+                xs: '375px',
+            },
             backgroundImage: {
                 busan: "url('/images/busan-background.jpg')",
             },

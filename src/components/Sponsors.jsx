@@ -20,8 +20,8 @@ export function Sponsors({ className }) {
     return (
         <Section id="sponsors" className={className}>
             <Container>
-                <h2 className="font-display mx-auto max-w-2xl text-center text-4xl font-medium tracking-tighter text-blue-900 sm:text-5xl">
-                    Current sponsorships for our workshops and speakers.
+                <h2 className="font-display mx-auto text-center text-4xl font-medium tracking-tighter text-blue-900 sm:text-5xl">
+                    Current conference is supported by
                 </h2>
                 <div className="mt-20 grid grid-cols-1 gap-y-12 sm:grid-cols-2 md:gap-x-16 lg:grid-cols-3 lg:gap-x-32">
                     {sponsors.map((sponsor) => (

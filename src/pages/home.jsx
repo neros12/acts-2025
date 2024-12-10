@@ -3,7 +3,8 @@ import { useEffect, useRef } from 'react'
 import { HomeHeader } from 'components/Header'
 import { Footer } from 'components/Footer'
 import { Hero } from 'components/Hero'
-import { Scope } from 'components/Scope'
+import { Opening } from 'components/Opening'
+import { Areas } from 'components/Areas'
 import { Contact } from 'components/Contact'
 import { Schedule } from 'components/Schedule'
 import { Speakers } from 'components/Speakers'
@@ -32,15 +33,16 @@ export default function Home() {
         <>
             <HomeHeader onClick={clickHeader} />
             <Hero />
-            <Scope />
+            <Opening />
+            <Areas className="bg-slate-50" />
             <div ref={speakersRef} />
-            <Speakers className="bg-slate-50" />
-            <Schedule />
+            {/* <Speakers className="bg-slate-50" /> */}
+            {/* <Schedule /> */}
             <div ref={committesRef} />
-            <Committes className="bg-slate-50" />
-            <Sponsors />
+            <Committes />
+            <Sponsors className="bg-slate-50" />
             <div ref={contactRef} />
-            <Contact className="bg-slate-50" />
+            {/* <Contact className="bg-slate-50" /> */}
             <Footer />
         </>
     )
