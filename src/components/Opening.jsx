@@ -54,10 +54,14 @@ export function Opening({ className }) {
                         <div className="mb-1 mt-4 text-2xl font-semibold">
                             Organized by
                         </div>
-                        <div>Asain Crystallization Society</div>
-                        <div>Pukyong National University</div>
-                        <div>The Division of Separation Technology</div>
-                        <div>Korean Institue of Chemical Engineers (KICHE)</div>
+                        <div>-&nbsp;&nbsp;Asian Crystallization Society</div>
+                        <div>-&nbsp;&nbsp;Pukyong National University</div>
+                        <div>
+                            -&nbsp;&nbsp;The Division of Separation Technology
+                        </div>
+                        <div>
+                            -&nbsp;&nbsp;Korean Institute of Chemical Engineers
+                        </div>
                         <div className="mb-1 mt-4 text-2xl font-semibold">
                             Contact
                         </div>

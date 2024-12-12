@@ -41,7 +41,7 @@ export function Hero() {
                                 </h3>
                                 <div className="flex items-center font-light">
                                     <VscChromeMinimize className="mr-2" />
-                                    To ba announced
+                                    To be announced
                                 </div>
                             </div>
                             <div>
