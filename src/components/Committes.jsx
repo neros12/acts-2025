@@ -52,10 +52,6 @@ export function Committees({ className }) {
                 <h2 className="font-display text-4xl font-medium tracking-tighter text-blue-600 sm:text-5xl">
                     Committees
                 </h2>
-                <p className="font-display mt-4 max-w-2xl text-2xl tracking-tight text-blue-900">
-                    Learn from the experts on the cutting-edge of deception at
-                    the most sinister companies.
-                </p>
                 <div className="mt-12 md:mt-20 md:flex md:gap-4">
                     <div className="flex flex-wrap gap-x-8 gap-y-4 max-md:mb-12 md:w-64 md:min-w-64 md:flex-col">
                         <CommitteeMenu

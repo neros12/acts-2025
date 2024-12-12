@@ -23,7 +23,7 @@ export function Hero() {
                                     Important Due Dates
                                 </h3>
                                 <div className="flex items-center font-light">
-                                    <VscChromeMinimize className="mr-2" />{' '}
+                                    <VscChromeMinimize className="mr-2" />
                                     Abstract &#40;1 page&#41; : 30 July 2025
                                 </div>
                                 <div className="flex items-center font-light">
@@ -63,10 +63,9 @@ export function Hero() {
                     </div>
                     <li className="mt-10 grid grid-cols-2 gap-x-10 gap-y-6 sm:mt-16 sm:gap-x-16 sm:gap-y-10 sm:text-center lg:auto-cols-auto lg:grid-flow-col lg:grid-cols-none lg:justify-start lg:text-left">
                         {[
-                            ['Speakers', '18'],
-                            ['Date', '19-21 Nov. 2025'],
+                            ['Date', '12-14 Nov. 2025'],
                             ['Venue', 'Pukyong National University'],
-                            ['Location', 'Busan, Korea'],
+                            ['Location', 'Busan, Republic of Korea'],
                         ].map(([name, value]) => (
                             <div key={name}>
                                 <dt className="font-mono text-sm">{name}</dt>
