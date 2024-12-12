@@ -36,9 +36,7 @@ export function HomeHeader({ onClick }) {
                 </ol>
                 <div className="flex w-40 justify-end pb-4">
                     <button
-                        onClick={() =>
-                            alert('Registration is currently not open')
-                        }
+                        onClick={() => alert('Registration is not open yet')}
                     >
                         Sign-up
                     </button>

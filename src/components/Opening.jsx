@@ -18,9 +18,7 @@ export function Opening({ className }) {
                                 <button
                                     className="flex h-56 w-56 items-center justify-center hover:bg-gray-50"
                                     onClick={() => {
-                                        alert(
-                                            'Registration is currently not open'
-                                        )
+                                        alert('Registration is not open yet')
                                     }}
                                 >
                                     <div className="flex h-48 flex-col items-center">
@@ -35,9 +33,7 @@ export function Opening({ className }) {
                                 <button
                                     className="flex h-56 w-56 flex-col items-center justify-center p-4 hover:bg-gray-50"
                                     onClick={() => {
-                                        alert(
-                                            'Registration is currently not open'
-                                        )
+                                        alert('Registration is not open yet')
                                     }}
                                 >
                                     <div className="flex h-48 flex-col items-center">

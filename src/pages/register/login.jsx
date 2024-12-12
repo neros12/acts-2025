@@ -1,13 +1,13 @@
-import { useEffect } from "react";
-import { useNavigate } from "react-router-dom";
+import { useEffect } from 'react'
+import { useNavigate } from 'react-router-dom'
 
 export default function Login() {
-  const navigate = useNavigate();
+    const navigate = useNavigate()
 
-  useEffect(() => {
-    alert("Registration is currently not open");
-    navigate("/");
-  }, []);
+    useEffect(() => {
+        alert('Registration is not open yet')
+        navigate('/')
+    }, [])
 
-  return <></>;
+    return <></>
 }
