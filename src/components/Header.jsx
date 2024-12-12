@@ -9,7 +9,7 @@ export function HomeHeader({ onClick }) {
                     className="flex w-fit space-x-8 pb-4 max-md:hidden"
                     onClick={onClick}
                 >
-                    <li
+                    {/* <li
                         className="cursor-pointer text-xl font-light"
                         id="nav-home"
                     >
@@ -25,14 +25,14 @@ export function HomeHeader({ onClick }) {
                         className="cursor-pointer text-xl font-light"
                         id="nav-committes"
                     >
-                        Committes
+                        Committees
                     </li>
                     <li
                         className="cursor-pointer text-xl font-light"
                         id="nav-contact"
                     >
                         Contact
-                    </li>
+                    </li> */}
                 </ol>
                 <div className="flex w-40 justify-end pb-4">
                     <button

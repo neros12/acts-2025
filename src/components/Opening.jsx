@@ -1,3 +1,9 @@
+import { MdOutlineEmail, MdPhone } from 'react-icons/md'
+import {
+    HiOutlineClipboardDocumentList,
+    HiOutlineClipboardDocumentCheck,
+} from 'react-icons/hi2'
+
 import { Section } from 'components/base/Section'
 import { Container } from 'components/Base/Container'
 
@@ -5,8 +11,50 @@ export function Opening({ className }) {
     return (
         <Section className={className}>
             <Container>
-                <div className="grid grid-cols-2 font-thin">
-                    <div className="text-xl">
+                <div className="font-thin xs:grid xs:grid-cols-2 xs:gap-x-16">
+                    <div className="text-2xl font-semibold">
+                        <div className="flex items-center justify-center">
+                            <div className="flex w-full max-w-[32rem] flex-col items-center xs:flex-row xs:justify-between">
+                                <button
+                                    className="flex h-56 w-56 items-center justify-center hover:bg-gray-50"
+                                    onClick={() => {
+                                        alert(
+                                            'Registration is currently not open'
+                                        )
+                                    }}
+                                >
+                                    <div className="flex h-48 flex-col items-center">
+                                        <div className="h-28 w-28 rounded-full bg-blue-900 p-4">
+                                            <HiOutlineClipboardDocumentList className="h-full w-full text-white" />
+                                        </div>
+                                        <div className="text-center font-semibold">
+                                            Registeration
+                                        </div>
+                                    </div>
+                                </button>
+                                <button
+                                    className="flex h-56 w-56 flex-col items-center justify-center p-4 hover:bg-gray-50"
+                                    onClick={() => {
+                                        alert(
+                                            'Registration is currently not open'
+                                        )
+                                    }}
+                                >
+                                    <div className="flex h-48 flex-col items-center">
+                                        <div className="w-27 h-28 rounded-full bg-emerald-700 p-4">
+                                            <HiOutlineClipboardDocumentCheck className="h-full w-full text-white" />
+                                        </div>
+                                        <div className="text-center font-semibold">
+                                            Check
+                                            <br />
+                                            Registeration
+                                        </div>
+                                    </div>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="text-xl max-xs:mt-8">
                         <div className="mb-1 mt-4 text-2xl font-semibold">
                             Organized by
                         </div>
@@ -17,12 +65,14 @@ export function Opening({ className }) {
                         <div className="mb-1 mt-4 text-2xl font-semibold">
                             Contact
                         </div>
-                        <div>example@korea.ac.kr</div>
-                        <div>82+ 000-0000-0000</div>
-                    </div>
-                    <div>
-                        <div>D-date</div>
-                        <div>D-</div>
+                        <div className="flex items-center space-x-2">
+                            <MdOutlineEmail className="mt-1" />
+                            <div>jwkang@korea.ac.kr</div>
+                        </div>
+                        <div className="flex items-center space-x-2">
+                            <MdPhone />
+                            <div>+82-2-3290-3305</div>
+                        </div>
                     </div>
                 </div>
                 <div>
@@ -37,6 +87,7 @@ export function Opening({ className }) {
                             Date
                         </div>
                     </div>
+                    {/* Board Table */}
                     <div className="grid grid-cols-6 gap-2">
                         <a
                             className="col-span-5 p-2"

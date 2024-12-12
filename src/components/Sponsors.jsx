@@ -1,20 +1,17 @@
+import { twMerge } from 'tailwind-merge'
+
 import { Section } from 'components/base/Section'
 import { Container } from 'components/base/Container'
-import logoLaravel from 'images/logos/laravel.svg'
-import logoMirage from 'images/logos/mirage.svg'
-import logoStatamic from 'images/logos/statamic.svg'
-import logoStaticKit from 'images/logos/statickit.svg'
-import logoTransistor from 'images/logos/transistor.svg'
-import logoTuple from 'images/logos/tuple.svg'
 
-const sponsors = [
-    { name: 'Transistor', logo: logoTransistor },
-    { name: 'Tuple', logo: logoTuple },
-    { name: 'StaticKit', logo: logoStaticKit },
-    { name: 'Mirage', logo: logoMirage },
-    { name: 'Laravel', logo: logoLaravel },
-    { name: 'Statamic', logo: logoStatamic },
-]
+function SponsorLogo({ name, imageUrl, className }) {
+    return (
+        <img
+            id={name}
+            src={imageUrl}
+            className={twMerge('aspect-[4/1] w-full bg-white', className)}
+        />
+    )
+}
 
 export function Sponsors({ className }) {
     return (
@@ -23,13 +20,16 @@ export function Sponsors({ className }) {
                 <h2 className="font-display mx-auto text-center text-4xl font-medium tracking-tighter text-blue-900 sm:text-5xl">
                     Current conference is supported by
                 </h2>
-                <div className="mt-20 grid grid-cols-1 gap-y-12 sm:grid-cols-2 md:gap-x-16 lg:grid-cols-3 lg:gap-x-32">
-                    {sponsors.map((sponsor) => (
-                        <div
-                            key={sponsor.name}
-                            className="aspect-[5/2] w-full bg-indigo-50"
-                        />
-                    ))}
+                <div className="mt-20 grid grid-cols-1 gap-8 gap-y-8 sm:grid-cols-2 md:gap-x-12 lg:grid-cols-3">
+                    <SponsorLogo
+                        className="p-4"
+                        name="KICHE"
+                        imageUrl="images/sponsers/KICHE.png"
+                    />
+                    <SponsorLogo
+                        name="PukyongUniversity"
+                        imageUrl="images/sponsers/PukyongUniversity.png"
+                    />
                 </div>
             </Container>
         </Section>
