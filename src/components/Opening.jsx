@@ -16,7 +16,7 @@ export function Opening({ className }) {
                         <div className="flex items-center justify-center">
                             <div className="flex w-full max-w-[32rem] flex-col items-center xs:flex-row xs:justify-between">
                                 <button
-                                    className="flex h-56 w-56 items-center justify-center hover:bg-gray-50"
+                                    className="flex h-56 w-56 min-w-56 items-center justify-center hover:bg-gray-50"
                                     onClick={() => {
                                         alert('Registration is not open yet')
                                     }}
@@ -31,13 +31,13 @@ export function Opening({ className }) {
                                     </div>
                                 </button>
                                 <button
-                                    className="flex h-56 w-56 flex-col items-center justify-center p-4 hover:bg-gray-50"
+                                    className="flex h-56 w-56 min-w-56 flex-col items-center justify-center p-4 hover:bg-gray-50"
                                     onClick={() => {
                                         alert('Registration is not open yet')
                                     }}
                                 >
                                     <div className="flex h-48 flex-col items-center">
-                                        <div className="w-27 h-28 rounded-full bg-emerald-700 p-4">
+                                        <div className="h-28 w-28 rounded-full bg-emerald-700 p-4">
                                             <HiOutlineClipboardDocumentCheck className="h-full w-full text-white" />
                                         </div>
                                         <div className="text-center font-semibold">
