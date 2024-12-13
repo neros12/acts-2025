@@ -5,6 +5,7 @@ module.exports = {
         extend: {
             screens: {
                 xs: '375px',
+                ms: '700px',
             },
             backgroundImage: {
                 busan: "url('/images/busan-background.jpg')",

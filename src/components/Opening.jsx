@@ -11,7 +11,7 @@ export function Opening({ className }) {
     return (
         <Section className={className}>
             <Container>
-                <div className="font-thin xs:grid xs:grid-cols-2 xs:gap-x-16">
+                <div className="ms:gap-x-16 ms:grid ms:grid-cols-2 font-thin">
                     <div className="text-2xl font-semibold">
                         <div className="flex items-center justify-center">
                             <div className="flex w-full max-w-[32rem] flex-col items-center xs:flex-row xs:justify-between">
@@ -50,8 +50,8 @@ export function Opening({ className }) {
                             </div>
                         </div>
                     </div>
-                    <div className="text-xl max-xs:mt-8">
-                        <div className="mb-1 mt-4 text-2xl font-semibold">
+                    <div className="max-ms:mt-2 text-xl">
+                        <div className="mb-1 text-2xl font-semibold">
                             Organized by
                         </div>
                         <div>-&nbsp;&nbsp;Asian Crystallization Society</div>
