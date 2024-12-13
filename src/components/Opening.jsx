@@ -16,7 +16,7 @@ export function Opening({ className }) {
                         <div className="flex items-center justify-center">
                             <div className="flex w-full max-w-[32rem] flex-col items-center xs:flex-row xs:justify-between">
                                 <button
-                                    className="flex h-56 w-56 min-w-56 items-center justify-center hover:bg-gray-50"
+                                    className="flex h-56 w-56 items-center justify-center hover:bg-gray-50"
                                     onClick={() => {
                                         alert('Registration is not open yet')
                                     }}
@@ -31,7 +31,7 @@ export function Opening({ className }) {
                                     </div>
                                 </button>
                                 <button
-                                    className="flex h-56 w-56 min-w-56 flex-col items-center justify-center p-4 hover:bg-gray-50"
+                                    className="flex h-56 w-56 flex-col items-center justify-center p-4 hover:bg-gray-50"
                                     onClick={() => {
                                         alert('Registration is not open yet')
                                     }}
@@ -97,7 +97,11 @@ export function Opening({ className }) {
                         >
                             First Circular and Call for Papers
                         </a>
-                        <div className="p-2">2024-12-10</div>
+                        <div className="p-2">
+                            <span className="max-sm:hidden">2024-</span>12
+                            <span className="max-sm:hidden">-</span>
+                            <span className="sm:hidden">/</span>10
+                        </div>
                     </div>
                 </div>
             </Container>
