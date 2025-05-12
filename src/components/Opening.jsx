@@ -11,7 +11,7 @@ export function Opening({ className }) {
     return (
         <Section className={className}>
             <Container>
-                <div className="ms:gap-x-16 ms:grid ms:grid-cols-2 font-thin">
+                <div className="font-thin ms:grid ms:grid-cols-2 ms:gap-x-16">
                     <div className="text-2xl font-semibold">
                         <div className="flex items-center justify-center">
                             <div className="flex w-full max-w-[32rem] flex-col items-center xs:flex-row xs:justify-between">
@@ -50,7 +50,7 @@ export function Opening({ className }) {
                             </div>
                         </div>
                     </div>
-                    <div className="max-ms:mt-2 text-xl">
+                    <div className="text-xl max-ms:mt-2">
                         <div className="mb-1 text-2xl font-semibold">
                             Organized by
                         </div>
@@ -88,16 +88,29 @@ export function Opening({ className }) {
                         </div>
                     </div>
                     {/* Board Table */}
-                    <div className="grid grid-cols-6 gap-2">
+                    <div className="grid grid-cols-6 gap-2 pt-2">
                         <a
-                            className="col-span-5 p-2"
+                            className="col-span-5 px-2"
+                            href="https://naver.me/5IiJ45Jw"
+                            alt=""
+                            target="_blank"
+                        >
+                            Abstract Template
+                        </a>
+                        <div className="px-2">
+                            <span className="max-sm:hidden">2025-</span>05
+                            <span className="max-sm:hidden">-</span>
+                            <span className="sm:hidden">/</span>12
+                        </div>
+                        <a
+                            className="col-span-5 px-2"
                             href="http://naver.me/FFGJSsL8"
                             alt=""
                             target="_blank"
                         >
                             First Circular and Call for Papers
                         </a>
-                        <div className="p-2">
+                        <div className="px-2">
                             <span className="max-sm:hidden">2024-</span>12
                             <span className="max-sm:hidden">-</span>
                             <span className="sm:hidden">/</span>10
