@@ -2,7 +2,7 @@ import { VscChromeMinimize } from 'react-icons/vsc'
 
 export function Hero() {
     return (
-        <div className="min-h-screen bg-busan bg-cover bg-bottom pt-[5.25rem]">
+        <div className="min-h-screen bg-busan bg-cover bg-bottom">
             <div className="h-full w-full p-4 backdrop-brightness-[.6] sm:p-16">
                 <div className="mx-auto max-w-screen-lg text-white">
                     <h1 className="font-display text-5xl font-bold tracking-tighter sm:text-7xl">

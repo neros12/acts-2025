@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react'
+import { Link } from 'react-router-dom'
 import { MdOutlineEmail, MdPhone } from 'react-icons/md'
 import {
     HiOutlineClipboardDocumentList,
@@ -44,11 +45,9 @@ export function Opening({ className }) {
                                         </div>
                                     </div>
                                 </a>
-                                <button
+                                <Link
                                     className="flex h-56 w-56 flex-col items-center justify-center p-4 hover:bg-gray-50"
-                                    onClick={() => {
-                                        alert('Registration is not open yet')
-                                    }}
+                                    to="/abstracts"
                                 >
                                     <div className="flex h-48 flex-col items-center">
                                         <div className="h-28 w-28 rounded-full bg-emerald-700 p-4">
@@ -60,7 +59,7 @@ export function Opening({ className }) {
                                             Submission
                                         </div>
                                     </div>
-                                </button>
+                                </Link>
                             </div>
                         </div>
                     </div>
@@ -101,6 +100,7 @@ export function Opening({ className }) {
                             Date
                         </div>
                     </div>
+
                     {/* Board Table */}
                     <div className="grid grid-cols-6 gap-2 pt-2">
                         <a

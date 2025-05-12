@@ -8,32 +8,7 @@ export function HomeHeader({ onClick }) {
                 <ol
                     className="flex w-fit space-x-8 pb-4 max-md:hidden"
                     onClick={onClick}
-                >
-                    {/* <li
-                        className="cursor-pointer text-xl font-light"
-                        id="nav-home"
-                    >
-                        Home
-                    </li>
-                    <li
-                        className="cursor-pointer text-xl font-light"
-                        id="nav-speakers"
-                    >
-                        Speakers
-                    </li>
-                    <li
-                        className="cursor-pointer text-xl font-light"
-                        id="nav-committes"
-                    >
-                        Committees
-                    </li>
-                    <li
-                        className="cursor-pointer text-xl font-light"
-                        id="nav-contact"
-                    >
-                        Contact
-                    </li> */}
-                </ol>
+                ></ol>
                 <div className="flex w-40 justify-end pb-4">
                     <div></div>
                 </div>
