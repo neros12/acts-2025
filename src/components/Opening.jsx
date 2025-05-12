@@ -1,3 +1,4 @@
+import { useState, useEffect } from 'react'
 import { MdOutlineEmail, MdPhone } from 'react-icons/md'
 import {
     HiOutlineClipboardDocumentList,
@@ -6,8 +7,21 @@ import {
 
 import { Section } from 'components/base/Section'
 import { Container } from 'components/Base/Container'
+import { useLocationContext } from 'contexts/LocationContext'
 
 export function Opening({ className }) {
+    const { isKorea } = useLocationContext()
+    const [registerationPage, setRegisterationPage] = useState(
+        'https://www.kiche.or.kr/_GG0d/en'
+    )
+
+    useEffect(() => {
+        if (isKorea) {
+            setRegisterationPage('https://www.kiche.or.kr/_GG0d')
+        } else {
+            setRegisterationPage('https://www.kiche.or.kr/_GG0d/en')
+        }
+    }, [isKorea])
     return (
         <Section className={className}>
             <Container>
@@ -15,11 +29,11 @@ export function Opening({ className }) {
                     <div className="text-2xl font-semibold">
                         <div className="flex items-center justify-center">
                             <div className="flex w-full max-w-[32rem] flex-col items-center xs:flex-row xs:justify-between">
-                                <button
+                                <a
                                     className="flex h-56 w-56 items-center justify-center hover:bg-gray-50"
-                                    onClick={() => {
-                                        alert('Registration is not open yet')
-                                    }}
+                                    href={registerationPage}
+                                    alt=""
+                                    target="_blank"
                                 >
                                     <div className="flex h-48 flex-col items-center">
                                         <div className="h-28 w-28 rounded-full bg-blue-900 p-4">
@@ -29,7 +43,7 @@ export function Opening({ className }) {
                                             Registeration
                                         </div>
                                     </div>
-                                </button>
+                                </a>
                                 <button
                                     className="flex h-56 w-56 flex-col items-center justify-center p-4 hover:bg-gray-50"
                                     onClick={() => {
@@ -41,9 +55,9 @@ export function Opening({ className }) {
                                             <HiOutlineClipboardDocumentCheck className="h-full w-full text-white" />
                                         </div>
                                         <div className="text-center font-semibold">
-                                            Check
+                                            Abstract
                                             <br />
-                                            Registeration
+                                            Submission
                                         </div>
                                     </div>
                                 </button>

@@ -35,11 +35,7 @@ export function HomeHeader({ onClick }) {
                     </li> */}
                 </ol>
                 <div className="flex w-40 justify-end pb-4">
-                    <button
-                        onClick={() => alert('Registration is not open yet')}
-                    >
-                        Sign-up
-                    </button>
+                    <div></div>
                 </div>
             </div>
         </header>
