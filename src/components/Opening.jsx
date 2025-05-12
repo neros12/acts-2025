@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react'
-import { Link } from 'react-router-dom'
 import { MdOutlineEmail, MdPhone } from 'react-icons/md'
 import {
     HiOutlineClipboardDocumentList,
@@ -41,7 +40,7 @@ export function Opening({ className }) {
                                             <HiOutlineClipboardDocumentList className="h-full w-full text-white" />
                                         </div>
                                         <div className="text-center font-semibold">
-                                            Registeration
+                                            Registration
                                         </div>
                                     </div>
                                 </a>
@@ -92,7 +91,7 @@ export function Opening({ className }) {
                 </div>
                 <div>
                     <h4 className="mb-4 mt-10 text-3xl font-semibold text-blue-600">
-                        Board
+                        Abstract template and more
                     </h4>
                     <div className="grid grid-cols-6 border-b border-black">
                         <div className="col-span-5 p-2 font-semibold">

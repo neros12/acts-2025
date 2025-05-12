@@ -11,7 +11,7 @@ export function Hero() {
                     </h1>
                     <div className="font-display mt-6 space-y-6 text-2xl tracking-tight">
                         <p>
-                            The Asian Crystallization Technology Society aim to
+                            The Asian Crystallization Technology Society aims to
                             provide a forum for academic researchers, scientists
                             and industry experts in Asia and all around the
                             world to discuss recent advances in crystallization
@@ -33,15 +33,6 @@ export function Hero() {
                                 <div className="flex items-center font-light">
                                     <VscChromeMinimize className="mr-2" />
                                     Pre-registration : 30 September 2025
-                                </div>
-                            </div>
-                            <div>
-                                <h3 className="font-bold">
-                                    Submissions on website
-                                </h3>
-                                <div className="flex items-center font-light">
-                                    <VscChromeMinimize className="mr-2" />
-                                    To be announced
                                 </div>
                             </div>
                             <div>
