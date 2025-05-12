@@ -108,6 +108,12 @@ export function Committees({ className }) {
                                 organization="Hanyang University"
                                 country="Korea"
                             />
+                            <CommitteeContent
+                                name="Chang Soo Lee"
+                                position="Prof"
+                                organization="Pukyong National University"
+                                country="Korea"
+                            />
                         </Show>
                         <Show show={committeState === 'Advisory Board'}>
                             <CommitteeContent

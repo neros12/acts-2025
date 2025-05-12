@@ -28,7 +28,7 @@ export function Hero() {
                                 </div>
                                 <div className="flex items-center font-light">
                                     <VscChromeMinimize className="mr-2" />
-                                    Acceptance Notification : 30 Agust 2025
+                                    Acceptance Notification : 30 August 2025
                                 </div>
                                 <div className="flex items-center font-light">
                                     <VscChromeMinimize className="mr-2" />
