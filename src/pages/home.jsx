@@ -13,10 +13,8 @@ export default function Home() {
             <Hero />
             <Opening />
             <Areas className="bg-slate-50" />
-            {/* <Schedule /> */}
             <Committees />
             <Sponsors className="bg-slate-50" />
-            {/* <Contact className="bg-slate-50" /> */}
             <Footer />
         </>
     )
