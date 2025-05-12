@@ -45,9 +45,11 @@ export function Opening({ className }) {
                                         </div>
                                     </div>
                                 </a>
-                                <Link
+                                <a
                                     className="flex h-56 w-56 flex-col items-center justify-center p-4 hover:bg-gray-50"
-                                    to="/abstracts"
+                                    href="https://forms.gle/vWPprBpyFk23JroV6"
+                                    alt=""
+                                    target="_blank"
                                 >
                                     <div className="flex h-48 flex-col items-center">
                                         <div className="h-28 w-28 rounded-full bg-emerald-700 p-4">
@@ -59,7 +61,7 @@ export function Opening({ className }) {
                                             Submission
                                         </div>
                                     </div>
-                                </Link>
+                                </a>
                             </div>
                         </div>
                     </div>
