@@ -4,6 +4,7 @@ import {
     HiOutlineClipboardDocumentList,
     HiOutlineClipboardDocumentCheck,
 } from 'react-icons/hi2'
+import { LuHotel } from 'react-icons/lu'
 
 import { Section } from 'components/base/Section'
 import { Container } from 'components/Base/Container'
@@ -28,9 +29,9 @@ export function Opening({ className }) {
                 <div className="font-thin ms:grid ms:grid-cols-2 ms:gap-x-16">
                     <div className="text-2xl font-semibold">
                         <div className="flex items-center justify-center">
-                            <div className="flex w-full max-w-[32rem] flex-col items-center xs:flex-row xs:justify-between">
+                            <div className="grid w-full max-w-[32rem] grid-cols-1 items-center xs:grid-cols-2">
                                 <a
-                                    className="flex h-56 w-56 items-center justify-center hover:bg-gray-50"
+                                    className="flex h-56 w-full flex-col items-center justify-center p-4 hover:bg-gray-50"
                                     href={registerationPage}
                                     alt=""
                                     target="_blank"
@@ -45,7 +46,7 @@ export function Opening({ className }) {
                                     </div>
                                 </a>
                                 <a
-                                    className="flex h-56 w-56 flex-col items-center justify-center p-4 hover:bg-gray-50"
+                                    className="flex h-56 w-full flex-col items-center justify-center p-4 hover:bg-gray-50"
                                     href="https://forms.gle/vWPprBpyFk23JroV6"
                                     alt=""
                                     target="_blank"
@@ -58,6 +59,21 @@ export function Opening({ className }) {
                                             Abstract
                                             <br />
                                             Submission
+                                        </div>
+                                    </div>
+                                </a>
+                                <a
+                                    className="flex h-56 w-full items-center justify-center hover:bg-gray-50"
+                                    href={'https://bit.ly/43eKypy'}
+                                    alt=""
+                                    target="_blank"
+                                >
+                                    <div className="flex h-48 flex-col items-center">
+                                        <div className="h-28 w-28 rounded-full bg-gray-600 p-4">
+                                            <LuHotel className="h-full w-full text-white" />
+                                        </div>
+                                        <div className="text-center font-semibold">
+                                            Hotel Reservation
                                         </div>
                                     </div>
                                 </a>
