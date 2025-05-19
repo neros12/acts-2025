@@ -15,12 +15,19 @@ export function Opening({ className }) {
     const [registerationPage, setRegisterationPage] = useState(
         'https://www.kiche.or.kr/_GG0d/en'
     )
+    const [bookingPage, setBookingPage] = useState(
+        'https://secure.minorhotels.com/rooms.aspx?language=en&_ucs_=1&adults=2&bc=AV&checkin=12%2f11%2f2025&children=0&currency=KRW&ga_client_id=1360015428.1742449780&ga_session_id=1747096992&group=puk1125&hc=VBIF&infants=0&nights=1&rooms=1&tealid=018bcc8e10d000136c0ccdce02cf0506f002c06700bd0'
+    )
 
     useEffect(() => {
         if (isKorea) {
             setRegisterationPage('https://www.kiche.or.kr/_GG0d')
+            setBookingPage('https://bit.ly/43eKypy')
         } else {
             setRegisterationPage('https://www.kiche.or.kr/_GG0d/en')
+            setBookingPage(
+                'https://secure.minorhotels.com/rooms.aspx?language=en&_ucs_=1&adults=2&bc=AV&checkin=12%2f11%2f2025&children=0&currency=KRW&ga_client_id=1360015428.1742449780&ga_session_id=1747096992&group=puk1125&hc=VBIF&infants=0&nights=1&rooms=1&tealid=018bcc8e10d000136c0ccdce02cf0506f002c06700bd0'
+            )
         }
     }, [isKorea])
     return (
@@ -64,7 +71,7 @@ export function Opening({ className }) {
                                 </a>
                                 <a
                                     className="flex h-56 w-full items-center justify-center hover:bg-gray-50"
-                                    href={'https://bit.ly/43eKypy'}
+                                    href={bookingPage}
                                     alt=""
                                     target="_blank"
                                 >
@@ -120,6 +127,19 @@ export function Opening({ className }) {
 
                     {/* Board Table */}
                     <div className="grid grid-cols-6 gap-2 pt-2">
+                        <a
+                            className="col-span-5 px-2"
+                            href="https://naver.me/xfYnNxry"
+                            alt=""
+                            target="_blank"
+                        >
+                            Second Circular
+                        </a>
+                        <div className="px-2">
+                            <span className="max-sm:hidden">2025-</span>05
+                            <span className="max-sm:hidden">-</span>
+                            <span className="sm:hidden">/</span>19
+                        </div>
                         <a
                             className="col-span-5 px-2"
                             href="https://naver.me/5IiJ45Jw"
