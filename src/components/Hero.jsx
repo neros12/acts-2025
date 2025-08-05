@@ -24,15 +24,16 @@ export function Hero() {
                                 </h3>
                                 <div className="flex items-center font-light">
                                     <VscChromeMinimize className="mr-2" />
-                                    Abstract &#40;1 page&#41; : 30 July 2025
+                                    Abstract &#40;1 page&#41; : 15 September
+                                    2025
                                 </div>
                                 <div className="flex items-center font-light">
                                     <VscChromeMinimize className="mr-2" />
-                                    Acceptance Notification : 30 August 2025
+                                    Acceptance Notification : 30 September 2025
                                 </div>
                                 <div className="flex items-center font-light">
                                     <VscChromeMinimize className="mr-2" />
-                                    Pre-registration : 30 September 2025
+                                    Pre-registration : 15 October 2025
                                 </div>
                             </div>
                             <div>
