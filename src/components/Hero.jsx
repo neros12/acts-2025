@@ -25,7 +25,8 @@ export function Hero() {
                                 <div className="flex items-center font-light">
                                     <VscChromeMinimize className="mr-2" />
                                     Abstract &#40;1 page&#41; : 15 September
-                                    2025
+                                    2025&nbsp;
+                                    <span>&#40;extended&#41;</span>
                                 </div>
                                 <div className="flex items-center font-light">
                                     <VscChromeMinimize className="mr-2" />
