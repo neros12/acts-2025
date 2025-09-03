@@ -99,6 +99,10 @@ export function Opening({ className }) {
                         <div>
                             -&nbsp;&nbsp;Korean Institute of Chemical Engineers
                         </div>
+                        <div>
+                            -&nbsp;&nbsp;Korea University BK21 FOUR R&E Center
+                            for Chemical&Biological Engineering
+                        </div>
                         <div className="mb-1 mt-4 text-2xl font-semibold">
                             Contact
                         </div>

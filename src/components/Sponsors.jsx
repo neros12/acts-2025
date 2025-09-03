@@ -18,14 +18,6 @@ export function Sponsors({ className }) {
         <Section id="sponsors" className={className}>
             <Container>
                 <h2 className="font-display mx-auto text-center text-4xl font-medium tracking-tighter text-blue-900 sm:text-5xl">
-                    Organized by
-                </h2>
-                <SponsorLogo
-                    className="mx-auto max-w-[36rem] p-4"
-                    name="KICHE"
-                    imageUrl="images/sponsers/Korea_University_BK.png"
-                />
-                <h2 className="font-display mx-auto mt-12 text-center text-4xl font-medium tracking-tighter text-blue-900 sm:text-5xl">
                     Current conference is supported by
                 </h2>
                 <div className="mt-20 grid grid-cols-1 gap-8 gap-y-8 sm:grid-cols-2 md:gap-x-12 lg:grid-cols-3">
@@ -37,6 +29,10 @@ export function Sponsors({ className }) {
                     <SponsorLogo
                         name="PukyongUniversity"
                         imageUrl="images/sponsers/PukyongUniversity.png"
+                    />
+                    <SponsorLogo
+                        name="KICHE"
+                        imageUrl="images/sponsers/Korea_University_BK.png"
                     />
                 </div>
             </Container>
