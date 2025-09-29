@@ -34,6 +34,21 @@ export function Sponsors({ className }) {
                         name="KICHE"
                         imageUrl="images/sponsers/Korea_University_BK.png"
                     />
+                    <SponsorLogo
+                        className="p-4"
+                        name="LG"
+                        imageUrl="images/sponsers/LG.svg"
+                    />
+                    <SponsorLogo
+                        className="p-4"
+                        name="Lotte"
+                        imageUrl="images/sponsers/Lotte.svg"
+                    />
+                    <SponsorLogo
+                        className="p-4"
+                        name="Laminar"
+                        imageUrl="images/sponsers/Laminar.png"
+                    />
                 </div>
             </Container>
         </Section>
