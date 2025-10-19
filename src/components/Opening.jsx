@@ -1,10 +1,12 @@
 import { useState, useEffect } from 'react'
+import { Link } from 'react-router-dom'
 import { MdOutlineEmail, MdPhone } from 'react-icons/md'
 import {
     HiOutlineClipboardDocumentList,
     HiOutlineClipboardDocumentCheck,
 } from 'react-icons/hi2'
 import { LuHotel } from 'react-icons/lu'
+import { AiOutlineSchedule } from 'react-icons/ai'
 
 import { Section } from 'components/base/Section'
 import { Container } from 'components/Base/Container'
@@ -84,6 +86,19 @@ export function Opening({ className }) {
                                         </div>
                                     </div>
                                 </a>
+                                <Link
+                                    className="flex h-56 w-full items-center justify-center hover:bg-gray-50"
+                                    to="/program"
+                                >
+                                    <div className="flex h-48 flex-col items-center">
+                                        <div className="h-28 w-28 rounded-full bg-blue-400 p-4">
+                                            <AiOutlineSchedule className="h-full w-full text-white" />
+                                        </div>
+                                        <div className="text-center font-semibold">
+                                            Program Schedule
+                                        </div>
+                                    </div>
+                                </Link>
                             </div>
                         </div>
                     </div>
@@ -114,6 +129,12 @@ export function Opening({ className }) {
                             <MdPhone />
                             <div>+82-2-3290-3305</div>
                         </div>
+                        {/* <Link
+                            to="/program"
+                            className="mt-6 block w-fit font-normal text-blue-600 hover:text-blue-800"
+                        >
+                            &#60;&#60; See Program Schedule &#62;&#62;
+                        </Link> */}
                     </div>
                 </div>
                 <div>

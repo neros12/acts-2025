@@ -57,7 +57,10 @@ export function Hero() {
                     <li className="mt-10 grid grid-cols-2 gap-x-10 gap-y-6 sm:mt-16 sm:gap-x-16 sm:gap-y-10 sm:text-center lg:auto-cols-auto lg:grid-flow-col lg:grid-cols-none lg:justify-start lg:text-left">
                         {[
                             ['Date', '12-14 Nov. 2025'],
-                            ['Venue', 'Pukyong National University'],
+                            [
+                                'Venue',
+                                'Convention Hall 2, Mirae Building 4th Floor, Pukyong National University (Daeyon Campus)',
+                            ],
                             ['Location', 'Busan, Republic of Korea'],
                         ].map(([name, value]) => (
                             <div key={name}>
