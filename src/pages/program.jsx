@@ -307,8 +307,8 @@ export default function Program() {
                         <ProgramTable>
                             <TimeColumn>14:10~14:30</TimeColumn>
                             <ContentColumn>
-                                OP-12 &#40;Nornizar Anuar&#41;, Universiti
-                                Teknologi MARA
+                                OP-12 &#40;Siti Nur’Aqilah Irwan&#41;,
+                                Universiti Teknologi MARA
                                 <br />
                                 Crystallisation-Driven Polymorphism of
                                 L-Isoleucine: Experimental and Molecular
