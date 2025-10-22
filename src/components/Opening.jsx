@@ -154,6 +154,19 @@ export function Opening({ className }) {
                     <div className="grid grid-cols-6 gap-2 pt-2">
                         <a
                             className="col-span-5 px-2"
+                            href="https://naver.me/5FE2DOOT"
+                            alt=""
+                            target="_blank"
+                        >
+                            Presentation Guideline
+                        </a>
+                        <div className="px-2">
+                            <span className="max-sm:hidden">2025-</span>10
+                            <span className="max-sm:hidden">-</span>
+                            <span className="sm:hidden">/</span>22
+                        </div>
+                        <a
+                            className="col-span-5 px-2"
                             href="https://naver.me/GiazmvKX"
                             alt=""
                             target="_blank"
