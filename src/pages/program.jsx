@@ -316,13 +316,13 @@ export default function Program() {
                             </ContentColumn>
                         </ProgramTable>
                         <ProgramTable className="text-center font-semibold">
-                            <TimeColumn>14:30~15:20</TimeColumn>
+                            <TimeColumn>14:30~15:00</TimeColumn>
                             <ContentColumn className="bg-orange-100">
                                 Coffee break
                             </ContentColumn>
                         </ProgramTable>
                         <ProgramTable>
-                            <TimeColumn>14:50~15:40</TimeColumn>
+                            <TimeColumn>15:00~15:20</TimeColumn>
                             <ContentColumn className="bg-green-200 font-semibold">
                                 KL-07 &#40;Kiho Park&#41;, Hanyang University
                                 <br />
@@ -332,7 +332,7 @@ export default function Program() {
                             </ContentColumn>
                         </ProgramTable>
                         <ProgramTable>
-                            <TimeColumn>15:40~16:00</TimeColumn>
+                            <TimeColumn>15:20~15:40</TimeColumn>
                             <ContentColumn>
                                 OP-13 &#40;Dhanang Edy Pratama&#41;, National
                                 Central University
@@ -342,7 +342,7 @@ export default function Program() {
                             </ContentColumn>
                         </ProgramTable>
                         <ProgramTable>
-                            <TimeColumn>16:00~16:20</TimeColumn>
+                            <TimeColumn>15:40~16:00</TimeColumn>
                             <ContentColumn>
                                 OP-14 &#40;Wenbo Wu&#41;, Tianjin University
                                 <br />
@@ -351,13 +351,19 @@ export default function Program() {
                             </ContentColumn>
                         </ProgramTable>
                         <ProgramTable>
-                            <TimeColumn>16:20~16:40</TimeColumn>
+                            <TimeColumn>16:00~16:20</TimeColumn>
                             <ContentColumn className="bg-green-200 font-semibold">
                                 KL-08 &#40;Jonghwi Lee&#41;, Chung-Ang
                                 University
                                 <br />
                                 Polymer-Supported Simultaneous Crystallization
                                 of Antihypertensive Drugs
+                            </ContentColumn>
+                        </ProgramTable>
+                        <ProgramTable>
+                            <TimeColumn>16:20~16:30</TimeColumn>
+                            <ContentColumn className="bg-orange-700 font-semibold">
+                                Closing remarks
                             </ContentColumn>
                         </ProgramTable>
                     </section>
