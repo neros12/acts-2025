@@ -193,7 +193,7 @@ export default function Program() {
                                 Frameworks
                             </ContentColumn>
                         </ProgramTable>
-                        <ProgramTable className="bg-orange-100 text-center font-semibold">
+                        <ProgramTable className="bg-orange-400 text-center font-semibold">
                             <TimeColumn>18:00~20:00</TimeColumn>
                             <ContentColumn>
                                 Conference banquet
@@ -360,7 +360,7 @@ export default function Program() {
                                 of Antihypertensive Drugs
                             </ContentColumn>
                         </ProgramTable>
-                        <ProgramTable className="bg-orange-100 text-center font-semibold">
+                        <ProgramTable className="bg-orange-400 text-center font-semibold">
                             <TimeColumn>16:20~16:30</TimeColumn>
                             <ContentColumn>Closing remarks</ContentColumn>
                         </ProgramTable>
