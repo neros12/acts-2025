@@ -10,6 +10,10 @@ import {
     PosterAffiliation,
     PosterTitle,
 } from 'components/Table'
+import {
+    OralPresentationGuideline,
+    PoseterPresentationGuideline,
+} from 'components/ProgramGuideline'
 
 export default function Program() {
     return (
@@ -19,6 +23,7 @@ export default function Program() {
                     <h2 className="font-display text-4xl font-medium tracking-tighter text-blue-600 sm:text-5xl">
                         Program
                     </h2>
+                    <OralPresentationGuideline />
                     {/* Nov 12 */}
                     <section className="mb-8 mt-6">
                         <h4 className="bg-orange-400 py-1 text-center text-xl font-semibold">
@@ -363,6 +368,7 @@ export default function Program() {
                     <h2 className="font-display pb-8 text-4xl font-medium tracking-tighter text-blue-600 sm:text-5xl">
                         Posters
                     </h2>
+                    <PoseterPresentationGuideline />
                     <PosterTable>
                         <PosterNumber>PP-01</PosterNumber>
                         <PosterAuthor>Sewon Park</PosterAuthor>
