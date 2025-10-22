@@ -360,11 +360,9 @@ export default function Program() {
                                 of Antihypertensive Drugs
                             </ContentColumn>
                         </ProgramTable>
-                        <ProgramTable>
+                        <ProgramTable className="bg-orange-100 text-center font-semibold">
                             <TimeColumn>16:20~16:30</TimeColumn>
-                            <ContentColumn className="bg-orange-700 font-semibold">
-                                Closing remarks
-                            </ContentColumn>
+                            <ContentColumn>Closing remarks</ContentColumn>
                         </ProgramTable>
                     </section>
                 </Container>
