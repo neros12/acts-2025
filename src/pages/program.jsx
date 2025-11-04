@@ -58,6 +58,12 @@ export default function Program() {
                             Session #1 &#40;Chair: Prof. Jeong Won Kang&#41;
                         </h4>
                         <ProgramTable>
+                            <TimeColumn>9:20~9:30</TimeColumn>
+                            <ContentColumn className="border-t text-center text-lg font-semibold">
+                                Opening celemony &#40;Prof. Jonghwi Lee&#41;
+                            </ContentColumn>
+                        </ProgramTable>
+                        <ProgramTable>
                             <TimeColumn>9:30~10:10</TimeColumn>
                             <ContentColumn className="bg-blue-200 font-semibold">
                                 PL-01 &#40;Gérard Coquerel&#41;, University of
