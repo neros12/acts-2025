@@ -58,17 +58,26 @@ export function HotelLocation({ className }) {
                 <h2 className="mb-8 text-center text-3xl font-semibold tracking-tighter text-blue-600 sm:text-5xl">
                     Hotel Location
                 </h2>
-                <div className="mx-auto aspect-square w-full max-w-[40rem]">
-                    <iframe
-                        title="아바니 센트럴 부산 위치"
-                        src="https://www.google.com/maps?q=%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C%20%EB%82%A8%EA%B5%AC%20%EC%A0%84%ED%8F%AC%EB%8C%80%EB%A1%9C%20133%20%EC%95%84%EB%B0%94%EB%8B%88%20%EC%84%BC%ED%8A%B8%EB%9F%B4%20%EB%B6%80%EC%82%B0&z=16&output=embed"
-                        style={{
-                            width: '100%',
-                            height: '100%',
-                        }}
-                        loading="lazy"
-                        referrerPolicy="no-referrer-when-downgrade"
-                    />
+                <div className="lg:grid lg:grid-cols-2 lg:gap-4">
+                    <div className="h-full w-full">
+                        <iframe
+                            title="아바니 센트럴 부산 위치"
+                            src="https://www.google.com/maps?q=%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C%20%EB%82%A8%EA%B5%AC%20%EC%A0%84%ED%8F%AC%EB%8C%80%EB%A1%9C%20133%20%EC%95%84%EB%B0%94%EB%8B%88%20%EC%84%BC%ED%8A%B8%EB%9F%B4%20%EB%B6%80%EC%82%B0&z=16&output=embed"
+                            style={{
+                                width: '100%',
+                                height: '100%',
+                            }}
+                            loading="lazy"
+                            referrerPolicy="no-referrer-when-downgrade"
+                        />
+                    </div>
+                    <div className="text-center lg:min-h-96 lg:text-left">
+                        <div className="mb-1 text-xl font-semibold text-gray-600">
+                            Avani Central Busan Hotel
+                        </div>
+                        <div>133 Jeonpo-daero, Nam-gu, Busan</div>
+                        <div> +82-51-791-5800</div>
+                    </div>
                 </div>
             </Container>
         </Section>

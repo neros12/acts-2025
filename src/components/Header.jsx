@@ -19,6 +19,12 @@ export function HomeHeader() {
                     >
                         Program
                     </Link>
+                    <Link
+                        to="/locations"
+                        className="inline-block text-2xl font-semibold text-slate-600 hover:text-black"
+                    >
+                        Location
+                    </Link>
                 </ol>
             </div>
         </header>
