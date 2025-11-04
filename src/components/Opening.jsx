@@ -154,7 +154,7 @@ export function Opening({ className }) {
                     <div className="grid grid-cols-6 gap-2 pt-2">
                         <a
                             className="col-span-5 px-2"
-                            href="https://naver.me/5FE2DOOT"
+                            href="https://naver.me/5pqh9xtg"
                             alt=""
                             target="_blank"
                         >

@@ -26,7 +26,7 @@ export default function Program() {
                     <OralPresentationGuideline />
                     {/* Nov 12 */}
                     <section className="mb-8 mt-6">
-                        <h4 className="bg-orange-400 py-1 text-center text-xl font-semibold">
+                        <h4 className="bg-orange-300 py-1 text-center text-xl font-semibold">
                             November 12, 2025 &#40;Wednesday&#41;
                         </h4>
                         <ProgramTable className="bg-gray-100 text-center font-semibold">
@@ -51,8 +51,11 @@ export default function Program() {
 
                     {/* Nov 13 */}
                     <section className="mb-8">
-                        <h4 className="bg-orange-400 py-1 text-center text-xl font-semibold">
+                        <h4 className="bg-orange-300 py-1 text-center text-xl font-semibold">
                             November 13, 2025 &#40;Thursday&#41;
+                        </h4>
+                        <h4 className="py-1 text-center text-xl font-semibold">
+                            Session #1 &#40;Chair: Prof. Jeong Won Kang&#41;
                         </h4>
                         <ProgramTable>
                             <TimeColumn>9:30~10:10</TimeColumn>
@@ -116,6 +119,9 @@ export default function Program() {
                                 Poster Presentation
                             </ContentColumn>
                         </ProgramTable>
+                        <h4 className="py-1 text-center text-xl font-semibold">
+                            Session #2 &#40;Chair: Prof. Pui Shan Chow&#41;
+                        </h4>
                         <ProgramTable>
                             <TimeColumn>13:30~14:10</TimeColumn>
                             <ContentColumn className="bg-blue-200 font-semibold">
@@ -152,6 +158,9 @@ export default function Program() {
                                 Coffee break - Poster Presentation
                             </ContentColumn>
                         </ProgramTable>
+                        <h4 className="py-1 text-center text-xl font-semibold">
+                            Session #3 &#40;Chair: Prof. Sang Hyuk Im&#41;
+                        </h4>
                         <ProgramTable>
                             <TimeColumn>15:40~16:00</TimeColumn>
                             <ContentColumn className="bg-green-200 font-semibold">
@@ -205,8 +214,11 @@ export default function Program() {
 
                     {/* Nov 14 */}
                     <section className="mb-8">
-                        <h4 className="bg-orange-400 py-1 text-center text-xl font-semibold">
+                        <h4 className="bg-orange-300 py-1 text-center text-xl font-semibold">
                             November 14, 2025 &#40;Friday&#41;
+                        </h4>
+                        <h4 className="py-1 text-center text-xl font-semibold">
+                            Session #4 &#40;Chair: Prof. Kiho Park&#41;
                         </h4>
                         <ProgramTable>
                             <TimeColumn>9:30~10:10</TimeColumn>
@@ -246,6 +258,9 @@ export default function Program() {
                                 Coffee break
                             </ContentColumn>
                         </ProgramTable>
+                        <h4 className="py-1 text-center text-xl font-semibold">
+                            Session #5 &#40;Chair: Prof. Lek Wantha&#41;
+                        </h4>
                         <ProgramTable>
                             <TimeColumn>11:20~11:40</TimeColumn>
                             <ContentColumn className="bg-green-200 font-semibold">
@@ -284,6 +299,9 @@ export default function Program() {
                                 Lunch
                             </ContentColumn>
                         </ProgramTable>
+                        <h4 className="py-1 text-center text-xl font-semibold">
+                            Session #6 &#40;Chair: Prof. Gérard Coquerel&#41;
+                        </h4>
                         <ProgramTable>
                             <TimeColumn>13:30~13:50</TimeColumn>
                             <ContentColumn className="bg-green-200 font-semibold">
@@ -321,6 +339,9 @@ export default function Program() {
                                 Coffee break
                             </ContentColumn>
                         </ProgramTable>
+                        <h4 className="py-1 text-center text-xl font-semibold">
+                            Session #7 &#40;Chair: Prof. Jonghwi Lee&#41;
+                        </h4>
                         <ProgramTable>
                             <TimeColumn>15:00~15:20</TimeColumn>
                             <ContentColumn className="bg-green-200 font-semibold">
@@ -360,7 +381,7 @@ export default function Program() {
                                 of Antihypertensive Drugs
                             </ContentColumn>
                         </ProgramTable>
-                        <ProgramTable className="bg-orange-400 text-center font-semibold">
+                        <ProgramTable className="bg-orange-300 text-center font-semibold">
                             <TimeColumn>16:20~16:30</TimeColumn>
                             <ContentColumn>Closing remarks</ContentColumn>
                         </ProgramTable>
