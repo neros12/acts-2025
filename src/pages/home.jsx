@@ -9,7 +9,6 @@ export default function Home() {
         <>
             <Hero />
             <Opening />
-
             <Areas className="bg-slate-50" />
             <Committees />
             <Sponsors className="bg-slate-50" />
