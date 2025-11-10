@@ -200,12 +200,10 @@ export default function Program() {
                         <ProgramTable>
                             <TimeColumn>16:40~17:00</TimeColumn>
                             <ContentColumn>
-                                OP-07 &#40;Pengyu Zhao&#41;, Pusan National
-                                University
+                                OP-14 &#40;Wenbo Wu&#41;, Tianjin University
                                 <br />
-                                MOFClassifier: A Machine Learning Approach for
-                                Validating Computation-Ready Metal-Organic
-                                Frameworks
+                                Flexible Organic Charge–Transfer Cocrystals with
+                                Near–Infrared Emission
                             </ContentColumn>
                         </ProgramTable>
                         <ProgramTable className="bg-orange-100 text-center font-semibold">
@@ -361,24 +359,16 @@ export default function Program() {
                         <ProgramTable>
                             <TimeColumn>15:20~15:40</TimeColumn>
                             <ContentColumn>
-                                OP-13 &#40;Dhanang Edy Pratama&#41;, National
-                                Central University
-                                <br />A Solid-Solid-Liquid Quasi-Ternary Phase
-                                Diagram Method for Multicomponent Solids
-                                Validated by Curcumin Purification Design
+                                OP-07 &#40;Pengyu Zhao&#41;, Pusan National
+                                University
+                                <br />
+                                MOFClassifier: A Machine Learning Approach for
+                                Validating Computation-Ready Metal-Organic
+                                Frameworks
                             </ContentColumn>
                         </ProgramTable>
                         <ProgramTable>
                             <TimeColumn>15:40~16:00</TimeColumn>
-                            <ContentColumn>
-                                OP-14 &#40;Wenbo Wu&#41;, Tianjin University
-                                <br />
-                                Flexible Organic Charge–Transfer Cocrystals with
-                                Near–Infrared Emission
-                            </ContentColumn>
-                        </ProgramTable>
-                        <ProgramTable>
-                            <TimeColumn>16:00~16:20</TimeColumn>
                             <ContentColumn className="bg-green-200 font-semibold">
                                 KL-08 &#40;Jonghwi Lee&#41;, Chung-Ang
                                 University
@@ -388,7 +378,7 @@ export default function Program() {
                             </ContentColumn>
                         </ProgramTable>
                         <ProgramTable className="bg-orange-300 text-center font-semibold">
-                            <TimeColumn>16:20~16:30</TimeColumn>
+                            <TimeColumn>16:00~16:10</TimeColumn>
                             <ContentColumn>Closing remarks</ContentColumn>
                         </ProgramTable>
                     </section>
