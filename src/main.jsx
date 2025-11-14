@@ -7,6 +7,8 @@ import { AuthContextProvider } from 'contexts/AuthContext'
 import { LocationContextProvider } from 'contexts/LocationContext'
 
 import 'styles/global.css'
+import 'slick-carousel/slick/slick.css'
+import 'slick-carousel/slick/slick-theme.css'
 
 const LayoutEffect = ({ children }) => {
     const location = useLocation()
